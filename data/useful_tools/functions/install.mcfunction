@@ -1,0 +1,1 @@
+tellraw @a ["\n----------\n\n",{"text":"[Chuzume's Toolbox] の導入に成功しました。\n[Chuzume's Toolbox] has been installed.\n\nCreated by "},{"text":"Chuzume","color":"gold"},"\n\n----------\n"]
