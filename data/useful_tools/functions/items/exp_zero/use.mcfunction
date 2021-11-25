@@ -10,7 +10,6 @@
     experience set @p 0 points
     execute unless predicate useful_tools:sneak run playsound minecraft:block.beacon.deactivate player @a ~ ~ ~ 1 2
     execute unless predicate useful_tools:sneak run experience set @p 0 levels
-    execute unless predicate useful_tools:sneak run experience set @p 0 points
     execute if predicate useful_tools:sneak run playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 0.75
     execute if predicate useful_tools:sneak run experience set @p 9999999 levels
 
