@@ -1,6 +1,6 @@
 
 # 取得
-    data modify storage chuz:context Item.Mainhand set from entity @s SelectedItem 
+    data modify storage chuz:context Item.Mainhand set from entity @s SelectedItem
     data modify storage chuz:context Item.Offhand set from entity @s Inventory[{Slot:-106b}]
 
 # デバッグキル

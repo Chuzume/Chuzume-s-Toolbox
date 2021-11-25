@@ -9,7 +9,7 @@
     execute unless predicate useful_tools:sneak run kill @e[type=!player,distance=..4]
     execute unless predicate useful_tools:sneak positioned ^ ^ ^1 run particle minecraft:flame ~ ~ ~ 0 0 0 0.1 10
 
-# 精密デバッグキル発動  
+# 精密デバッグキル発動
     execute if predicate useful_tools:sneak positioned ^ ^ ^1 run kill @e[type=!player,distance=..2,sort=nearest,limit=1]
     execute if predicate useful_tools:sneak positioned ^ ^ ^1 run particle minecraft:soul_fire_flame ~ ~ ~ 0 0 0 0.01 3
 

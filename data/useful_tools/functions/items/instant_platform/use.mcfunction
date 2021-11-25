@@ -1,5 +1,5 @@
 
-# 
+# アイテムを返す
     item replace entity @s weapon.mainhand with minecraft:lingering_potion{display: {Name: '{"text":"Instant Platform","color":"light_purple","italic":false}', Lore: ['{"text":""}', '{"text":"足元にブロックを置く。","color":"white","italic":false}']}, HideFlags: 32, ItemName: Instant_Platform, CustomPotionColor: 7895160} 1
 
 # ブロック設置
