@@ -7,4 +7,4 @@
     particle minecraft:dust 0.25 0.25 1 1 ~ ~-0.5 ~ 0.25 0.5 0.25 0 10
     playsound minecraft:block.beacon.power_select player @a ~ ~ ~ 1 2
     difficulty peaceful
-    schedule function useful_tools:return_to_normal 2t
+    schedule function useful_tools:items/banish/return_to_normal 2t

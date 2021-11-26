@@ -13,7 +13,7 @@
     execute if data storage chuz:context Item.Mainhand.tag{ItemName:Data_Get} run function useful_tools:items/data_get/hold
 
 # モブをNoAIから復帰させる
-    execute unless data storage chuz:context Item.Mainhand.tag{ItemName:Data_Get} as @e[tag=C.Box_NoAINow,distance=..100] run function useful_tools:noai_return
+    execute unless data storage chuz:context Item.Mainhand.tag{ItemName:Data_Get} as @e[tag=C.Box_NoAINow,distance=..100] run function useful_tools:items/data_get/noai_return
 
 # ストレージをリセット
     data remove storage chuz:context Item
