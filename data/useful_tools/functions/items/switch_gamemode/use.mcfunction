@@ -13,6 +13,6 @@
     execute if entity @s[gamemode=!creative] at @s run function useful_tools:items/switch_gamemode/creative
 
 # クリエイティブで、さっき切り替えてないなら
-    execute if entity @s[gamemode=creative,tag=!C.Toggled] at @s run function useful_tools:items/switch_gamemode/survival
+    execute if entity @s[gamemode=creative,tag=!C.Box_Toggled] at @s run function useful_tools:items/switch_gamemode/survival
 
-    tag @s remove C.Toggled
+    tag @s remove C.Box_Toggled
