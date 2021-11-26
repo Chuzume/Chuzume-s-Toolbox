@@ -1,6 +1,7 @@
 
 # アイテムを返す
-    item replace entity @s weapon.mainhand with minecraft:lingering_potion{display: {Name: '{"text":"Instant Platform","color":"light_purple","italic":false}', Lore: ['{"text":""}', '{"text":"足元にブロックを置く。","color":"white","italic":false}']}, HideFlags: 32, ItemName: Instant_Platform, CustomPotionColor: 7895160} 1
+    item replace entity @s[tag=!C.Box_OffHold.Instant_Platform] weapon.mainhand with minecraft:lingering_potion{display: {Name: '{"text":"Instant Platform","color":"light_purple","italic":false}', Lore: ['{"text":""}', '{"text":"足元にブロックを置く。","color":"white","italic":false}']}, HideFlags: 32, ItemName: Instant_Platform, CustomPotionColor: 7895160} 1
+    item replace entity @s[tag=C.Box_OffHold.Instant_Platform] weapon.offhand with minecraft:lingering_potion{display: {Name: '{"text":"Instant Platform","color":"light_purple","italic":false}', Lore: ['{"text":""}', '{"text":"足元にブロックを置く。","color":"white","italic":false}']}, HideFlags: 32, ItemName: Instant_Platform, CustomPotionColor: 7895160} 1
 
 # ブロック設置
     particle minecraft:dust 0.25 0.25 0.25 1 ~ ~-0.5 ~ 0.25 0.5 0.25 0 10

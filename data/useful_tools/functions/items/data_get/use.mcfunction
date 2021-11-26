@@ -11,4 +11,5 @@
     execute at @s unless entity @e[distance=0.5..9] run playsound minecraft:block.note_block.bass player @s ~ ~ ~ 2 0
 
 # アイテム付与
-    item replace entity @s weapon.mainhand with minecraft:lingering_potion{display:{Name:'{"text":"Data Get","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"所持時、付近のエンティティを停止させる。","color":"white","italic":false}','{"text":"使用時、最寄りの対象のdata getコマンドのサジェストを行う。","color":"white","italic":false}']},HideFlags:32,ItemName:Data_Get,CustomPotionColor:5767075} 1
+    item replace entity @s[tag=!C.Box_OffHold.Data_Get] weapon.mainhand with minecraft:lingering_potion{display:{Name:'{"text":"Data Get","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"所持時、付近のエンティティを停止させる。","color":"white","italic":false}','{"text":"使用時、最寄りの対象のdata getコマンドのサジェストを行う。","color":"white","italic":false}']},HideFlags:32,ItemName:Data_Get,CustomPotionColor:5767075} 1
+    item replace entity @s[tag=C.Box_OffHold.Data_Get] weapon.offhand with minecraft:lingering_potion{display:{Name:'{"text":"Data Get","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"所持時、付近のエンティティを停止させる。","color":"white","italic":false}','{"text":"使用時、最寄りの対象のdata getコマンドのサジェストを行う。","color":"white","italic":false}']},HideFlags:32,ItemName:Data_Get,CustomPotionColor:5767075} 1
