@@ -7,12 +7,13 @@
     playsound minecraft:ui.button.click player @a ~ ~ ~ 1 2
 
 # アイテム置き換え
-    item replace entity @s weapon.mainhand with minecraft:lingering_potion{display:{Name:'{"text":"Switch Gamemode","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"ゲームモードを切り替える。","color":"white","italic":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247} 1
+    item replace entity @s[tag=!C.Box_OffHold.Switch_Gamemode] weapon.mainhand with minecraft:lingering_potion{display:{Name:'{"text":"Switch Gamemode","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"ゲームモードを切り替える。","color":"white","italic":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247} 1
+    item replace entity @s[tag=C.Box_OffHold.Switch_Gamemode] weapon.offhand with minecraft:lingering_potion{display:{Name:'{"text":"Switch Gamemode","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"ゲームモードを切り替える。","color":"white","italic":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247} 1
 
-# スニーク・無敵ON
+# クリエイティブ以外なら
     execute if entity @s[gamemode=!creative] at @s run function useful_tools:items/switch_gamemode/creative
 
-# スニーク・無敵OFF
-    execute if entity @s[gamemode=creative,tag=!TestHoge] at @s run function useful_tools:items/switch_gamemode/survival
+# クリエイティブで、さっき切り替えてないなら
+    execute if entity @s[gamemode=creative,tag=!C.Box_Toggled] at @s run function useful_tools:items/switch_gamemode/survival
 
-    tag @s remove TestHoge
+    tag @s remove C.Box_Toggled

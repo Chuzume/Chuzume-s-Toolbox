@@ -5,5 +5,5 @@
 # 無敵モード
     execute as @a[tag=C.Box_Invinsible] at @s run function useful_tools:items/health_restore/invinsible_mode
 
-# ストレージ
+# 手持ちとかのストレージを使うもの
     execute as @a at @s run function useful_tools:storage

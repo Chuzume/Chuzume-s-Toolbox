@@ -1,3 +1,3 @@
 # サバイバルモードに
     gamemode survival
-    tag @s add TestHoge
+    tag @s add C.Box_Toggled

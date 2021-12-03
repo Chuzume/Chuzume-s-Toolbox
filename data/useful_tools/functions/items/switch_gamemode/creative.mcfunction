@@ -1,3 +1,3 @@
 # クリエに
     gamemode creative
-    tag @s add TestHoge
+    tag @s add C.Box_Toggled
