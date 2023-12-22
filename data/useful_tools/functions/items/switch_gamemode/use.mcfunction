@@ -7,8 +7,8 @@
     playsound minecraft:ui.button.click player @a ~ ~ ~ 1 2
 
 # アイテム置き換え
-    item replace entity @s[tag=!C.Box_OffHold.Switch_Gamemode] weapon.mainhand with minecraft:lingering_potion{display:{Name:'{"text":"Switch Gamemode","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"ゲームモードを切り替える。","color":"white","italic":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247} 1
-    item replace entity @s[tag=C.Box_OffHold.Switch_Gamemode] weapon.offhand with minecraft:lingering_potion{display:{Name:'{"text":"Switch Gamemode","color":"light_purple","italic":false}',Lore:['{"text":""}','{"text":"ゲームモードを切り替える。","color":"white","italic":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247} 1
+    loot replace entity @s[tag=!C.Box_OffHold.Switch_Gamemode] weapon.mainhand loot useful_tools:switch_gamemode
+    loot replace entity @s[tag=C.Box_OffHold.Switch_Gamemode] weapon.offhand loot useful_tools:switch_gamemode
 
 # クリエイティブ以外なら
     execute if entity @s[gamemode=!creative] at @s run function useful_tools:items/switch_gamemode/creative

@@ -1,6 +1,6 @@
 # そう簡単には死なないエフェクト付与
-    effect give @s resistance 1 4 true
-    effect give @s fire_resistance 1 4 true
+    effect give @s resistance 1 9 true
+    effect give @s fire_resistance 1 0 true
     effect clear @s poison
     effect clear @s wither
     effect clear @s hunger
