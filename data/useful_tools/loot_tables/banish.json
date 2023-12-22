@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Banish\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"全てのモンスターを消し去る。\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"⚠\",\"color\":\"red\",\"italic\":false},{\"text\":\"取り扱い注意\",\"color\":\"white\",\"italic\":false},{\"text\":\"⚠\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,ItemName:Banish,CustomPotionColor:16227} 1\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

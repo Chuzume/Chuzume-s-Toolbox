@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor: 16711824, HideFlags: 32, display: {Lore: ['{\"text\":\"\"}','{\"text\":\"自身の体力と空腹度を全快する。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"スニーク使用で無敵モードのON/OFF\",\"color\":\"white\",\"italic\":false}'], Name: '{\"text\":\"Restore Health/Invinsible\",\"color\":\"light_purple\",\"italic\":false}'}, ItemName: \"Health_Restore\"}\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

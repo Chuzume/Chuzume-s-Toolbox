@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Tester Armor Stand\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"Testというタグを持っている。\",\"color\":\"white\",\"italic\":false}']},EntityTag:{ShowArms: 1b, Pose: {RightArm: [0f, 0f, 0f], LeftLeg: [0f, 0f, 0f], Head: [0f, 0f, 0f], LeftArm: [0f, 0f, 0f], RightLeg: [0f, 0f, 0f], Body: [0f, 0f, 0f]},Tags: [\"Test\"],HandItems: [{}, {}], Fire: -1s, ArmorItems: [{}, {}, {}, {id: \"minecraft:player_head\", Count: 1b, tag: {SkullOwner: {Id:[I;-1359702411,156388626,-1132615199,142469197], Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzlkNjUxZDIyMzhiODczZmU0M2FmYzM4NTQ0N2RhY2VkMWYzYTcyOTJjYTQ3ZWU0NzYyMzI5NzNjMTM5ZjI0YyJ9fX0=\"}]}}}}], NoBasePlate: 1b}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

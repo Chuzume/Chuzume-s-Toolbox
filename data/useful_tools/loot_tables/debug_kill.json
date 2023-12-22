@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor: 6356992, HideFlags: 32, display: {Lore: ['{\"text\":\"\"}','{\"text\":\"周囲のエンティティを削除する。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"スニーク時は視点から一番近い一体を削除。\",\"color\":\"white\",\"italic\":false}', '[{\"text\":\"⚠\",\"color\":\"red\",\"italic\":false},{\"text\":\"取り扱い注意\",\"color\":\"white\",\"italic\":false},{\"text\":\"⚠\",\"color\":\"red\",\"italic\":false}]'], Name: '{\"text\":\"Debug Kill\",\"color\":\"light_purple\",\"italic\":false}'}, ItemName: \"Debug_Kill\"} 1\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

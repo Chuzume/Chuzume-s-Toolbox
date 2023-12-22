@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor: 13893483, HideFlags: 32, display: {Lore: ['{\"text\":\"\"}', '{\"text\":\"自身の経験値を0にする。\",\"color\":\"white\",\"italic\":false}', '{\"text\":\"スニーク使用で莫大な経験値を得る。\",\"color\":\"white\",\"italic\":false}'], Name: '{\"text\":\"EXP Zero/Max\",\"color\":\"light_purple\",\"italic\":false}'}, ItemName: Exp_Zero} 1\n"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
