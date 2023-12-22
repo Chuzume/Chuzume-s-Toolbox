@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Super Teleport\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"カーソルを合わせた地点へとワープする。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"スニーク時は壁を通り抜けるワープを行う。\",\"color\":\"white\",\"italic\":false}']},HideFlags:32,ItemName:Super_Teleport,CustomPotionColor:10750207} 1\n"
+                "tag": "{display:{Name:'{\"text\":\"Super Teleport\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"カーソルを合わせた地点へとワープする。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"スニーク時は壁を通り抜けるワープを行う。\",\"color\":\"white\",\"italic\":false}']},HideFlags:32,ItemName:Super_Teleport,CustomPotionColor:10750207}\n"
               }
             ]
           }

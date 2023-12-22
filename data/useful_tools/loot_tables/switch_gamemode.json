@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Switch Gamemode\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"ゲームモードを切り替える。\",\"color\":\"white\",\"italic\":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247} 1\n"
+                "tag": "{display:{Name:'{\"text\":\"Switch Gamemode\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"ゲームモードを切り替える。\",\"color\":\"white\",\"italic\":false}']},HideFlags:32,ItemName:Switch_Gamemode,CustomPotionColor:7925247}\n"
               }
             ]
           }
