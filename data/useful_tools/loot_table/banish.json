@@ -42,11 +42,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:custom_data": {"ItemID":"Banish"},
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:potion_contents": {
                   "custom_color": 14950
-                },
-                "minecraft:custom_data": {"ItemID":"Banish"}
+                }
               }
             },
             {
