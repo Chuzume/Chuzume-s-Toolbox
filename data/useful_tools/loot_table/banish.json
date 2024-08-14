@@ -1,19 +1,65 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:lingering_potion",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Banish\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"\"}','{\"text\":\"全てのモンスターを消し去る。\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"⚠\",\"color\":\"red\",\"italic\":false},{\"text\":\"取り扱い注意\",\"color\":\"white\",\"italic\":false},{\"text\":\"⚠\",\"color\":\"red\",\"italic\":false}]']},HideFlags:32,ItemName:Banish,CustomPotionColor:16227}\n"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": " "
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "⚠",
+                  "color": "red",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "ワールド内に存在する敵性モブを全て消滅させる",
+                      "color": "white",
+                      "extra": [
+                        {
+                          "text": "⚠",
+                          "color": "red"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 14950
+                },
+                "minecraft:custom_data": {"ItemID":"Banish"}
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Banish",
+                "color": "#FF006C",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
