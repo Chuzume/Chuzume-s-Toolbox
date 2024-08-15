@@ -26,13 +26,35 @@
         # 使用
             execute if data storage chuz:context ItemID{Mainhand:"DebugKill"} if score @s C.Box_Using matches 1.. anchored eyes positioned ^ ^ ^ run function useful_tools:items/debug_kill/use
 
-    # フルヒール
+    # フルヒール/インビンシブル
         # 使用
             execute if data storage chuz:context ItemID{Mainhand:"Fullheal"} if score @s C.Box_Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/health_restore/use
+    
+    # フルEXP/EXPゼロ
+        # 使用
+            execute if data storage chuz:context ItemID{Mainhand:"FullEXP"} if score @s C.Box_Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/exp_zero/use
 
     # スイッチゲームモード
         # 使用
             execute if data storage chuz:context ItemID{Mainhand:"SwitchGamemode"} if score @s C.Box_Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/switch_gamemode/use
+
+    # テレポート
+        # 使用
+            execute if data storage chuz:context ItemID{Mainhand:"Teleport"} if score @s C.Box_Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/super_teleport/use
+
+    # プラットフォーム
+        # 保持
+            execute if data storage chuz:context ItemID{Mainhand:"InstantPlatform"} anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/hold
+        # 使用
+            execute if data storage chuz:context ItemID{Mainhand:"InstantPlatform"} if score @s C.Box_Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/use
+
+    # フリーズ/アナライズ
+        # 保持
+            execute if data storage chuz:context ItemID{Mainhand:"Freeze"} run function useful_tools:items/data_get/hold
+        # 使用
+            execute if data storage chuz:context ItemID{Mainhand:"Freeze"} if score @s C.Box_Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/data_get/use
+        # モブをNoAIから復帰させる
+            execute unless data storage chuz:context ItemID{Mainhand:"Freeze"} as @e[tag=C.Box_NoAINow,distance=..100] run function useful_tools:items/data_get/noai_return
 
 # 使用中かどうか
     execute if score @s[scores={C.Box_Using=1..}] C.Box_UseEnd matches 0 run function useful_tools:player/using_item
