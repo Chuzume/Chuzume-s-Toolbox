@@ -1,10 +1,7 @@
 
-# ポーションは死ぬ
-    kill @e[type=potion,sort=nearest,limit=1]
-
-# アイテム付与
-    loot replace entity @s[tag=!C.Box_OffHold.Super_Teleport] weapon.mainhand loot useful_tools:super_teleport
-    loot replace entity @s[tag=C.Box_OffHold.Super_Teleport] weapon.offhand loot useful_tools:super_teleport
+# 落下速度殺す
+    tp @s 0.0 0.0 0.0
+    tp @s ~ ~ ~ ~ ~
 
 # ワープ
     execute unless predicate useful_tools:sneak run function useful_tools:items/super_teleport/warp

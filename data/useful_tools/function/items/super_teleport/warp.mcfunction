@@ -1,4 +1,5 @@
 
+
 # 目の前に何かあったらそこにTP
     execute unless block ^ ^ ^0.7 #useful_tools:no_collision align xyz run tp ~0.5 ~ ~0.5
     execute unless block ^ ^ ^0.7 #useful_tools:no_collision run playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 1 1
