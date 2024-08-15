@@ -30,6 +30,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:max_stack_size": 1,
                 "minecraft:custom_data": {"ItemID":"SwitchGamemode"},
                 "minecraft:food": {
                   "nutrition": 0,

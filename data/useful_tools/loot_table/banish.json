@@ -42,6 +42,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:max_stack_size": 1,
                 "minecraft:custom_data": {"ItemID":"Banish"},
                 "minecraft:food": {
                   "nutrition": 0,
