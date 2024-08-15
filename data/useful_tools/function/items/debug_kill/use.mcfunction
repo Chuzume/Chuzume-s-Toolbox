@@ -12,7 +12,3 @@
 # 精密デバッグキル発動
     execute if predicate useful_tools:sneak positioned ^ ^ ^1 run kill @e[type=!player,distance=..2,sort=nearest,limit=1]
     execute if predicate useful_tools:sneak positioned ^ ^ ^1 run particle minecraft:soul_fire_flame ~ ~ ~ 0 0 0 0.01 3
-
-# 置き換え
-    loot replace entity @s[tag=!C.Box_OffHold.Debug_Kill] weapon.mainhand loot useful_tools:debug_kill
-    loot replace entity @s[tag=C.Box_OffHold.Debug_Kill] weapon.offhand loot useful_tools:debug_kill
