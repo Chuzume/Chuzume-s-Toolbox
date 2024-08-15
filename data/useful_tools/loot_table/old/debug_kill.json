@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:lingering_potion",
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -25,7 +25,30 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "ワールド内に存在する敵性モブを全て消滅させる",
+                      "text": "周囲のエンティティを消滅させる",
+                      "color": "white",
+                      "extra": [
+                        {
+                          "text": "⚠",
+                          "color": "red"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "⚠",
+                  "color": "red",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "スニークしながら使うと、一番近いものだけを対象とする",
                       "color": "white",
                       "extra": [
                         {
@@ -42,26 +65,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {"ItemID":"Banish"},
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "eat_seconds": 2147483647
-                },
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
+                "minecraft:custom_data": {"ItemID":"DebugKill"},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 6684672
                 }
               }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Banish",
+                "text": "Debug Kill",
                 "color": "#FF006C",
                 "italic": false
               }

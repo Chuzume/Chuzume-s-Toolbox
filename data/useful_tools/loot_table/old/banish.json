@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:lingering_potion",
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -43,18 +43,9 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {"ItemID":"Banish"},
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "eat_seconds": 2147483647
-                },
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 14950
                 }
               }
             },
