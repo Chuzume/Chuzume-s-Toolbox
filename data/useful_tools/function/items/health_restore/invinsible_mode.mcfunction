@@ -6,5 +6,5 @@
     effect clear @s hunger
 
 # 無敵ですよっていう表示
-    particle minecraft:enchanted_hit ~ ~0.5 ~ 0.35 0.1 0.35 0 1
-    particle minecraft:dust 1 0.25 0.5 0.75 ~ ~0.1 ~ 0.35 0.1 0.35 0 1
+    particle minecraft:electric_spark ~ ~0.2 ~ 0.35 0.1 0.35 0.05 1
+    particle minecraft:dust{color:[1.0,0.3,0.5],scale:1} ~ ~-0.2 ~ 0.3 0.1 0.3 0 1
