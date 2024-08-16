@@ -45,7 +45,7 @@
             execute unless data storage chuz:context ItemID{Mainhand:"Freeze"} as @e[tag=C.Box_NoAINow,distance=..100] run function useful_tools:items/data_get/noai_return
 
 # 使用中かどうか
-    execute if score @s[scores={C.Box_Using=1..}] C.Box_UseEnd matches 0 run function useful_tools:player/using_item
+    execute if score @s[scores={C.Box_Using=1..}] C.Box_UseEnd matches 0 run function useful_tools:release_using
 
 # 無敵モード
     execute if entity @s[tag=C.Box_Invinsible] run function useful_tools:items/health_restore/invinsible_mode
