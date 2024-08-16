@@ -65,6 +65,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:enchantment_glint_override": true,
                 "minecraft:max_stack_size": 1,
                 "minecraft:custom_data": {"ItemID":"DebugKill"},
                 "minecraft:food": {

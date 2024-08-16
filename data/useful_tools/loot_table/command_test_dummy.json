@@ -1,0 +1,75 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": " "
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Testというタグを持っている",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:armor_stand",
+                                    "Tags": [
+                                        "Test"
+                                    ],
+                                    "ShowArms": true,
+                                    "NoBasePlate": true,
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:profile": {
+                                                    "properties": [
+                                                        {
+                                                            "name": "textures",
+                                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg3YjhlYjEzZDk5MjU3NTlhMmU1ZjkwOTRhNWU1YzUwZDJlZWI0YWQ2ZWJiMjk0YjVjNzA2NDU5OTA3NmQwOCJ9fX0="
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Command test Dummy",
+                                "color": "#FF006C",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
