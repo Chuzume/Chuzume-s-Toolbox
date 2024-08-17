@@ -9,6 +9,6 @@
 # バニッシュ
     particle minecraft:entity_effect{color:[0.3,0.3,1.0,1.0]} ~ ~ ~ 2 2 2 0 100 normal @s
     particle minecraft:dust{color:[0.3,0.3,1.0],scale:2} ~ ~ ~ 10 10 10 0 200 normal @s
-    playsound minecraft:block.respawn_anchor.deplete player @s ~ ~ ~ 1 2
+    playsound minecraft:block.respawn_anchor.deplete player @s ~ ~ ~ 1 1.5
     difficulty peaceful
     schedule function useful_tools:items/banish/revert_difficulty 2t replace
