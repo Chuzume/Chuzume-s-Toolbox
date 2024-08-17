@@ -1,3 +1,4 @@
-# 持ってる間、目の前にカーソル
-    execute unless entity @s[x_rotation=90] positioned ^ ^ ^2 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #useful_tools:can_replace run particle minecraft:electric_spark ~ ~ ~ 0 0 0 0 1 normal @s
-    execute if entity @s[x_rotation=90] at @s align xyz positioned ~0.5 ~-1 ~0.5 if block ~ ~ ~ #useful_tools:can_replace run particle minecraft:electric_spark ~ ~ ~ 0 0 0 0 1 normal @s
+
+# ブロック設置枠を表示
+    execute unless entity @n[type=marker,tag=ChuzTools.CursorMarker,distance=..0.1] run summon marker ~ ~ ~ {Tags:["ChuzTools.CursorMarker"]}
+    execute unless entity @n[type=item_display,tag=ChuzTools.BlockCursor,distance=..0.1] run summon item_display ~ ~ ~ {Tags:["ChuzTools.BlockCursor"],brightness:{sky:15,block:15},item:{id:"minecraft:lime_stained_glass",count:1}}

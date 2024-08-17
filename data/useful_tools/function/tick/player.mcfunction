@@ -1,6 +1,5 @@
 
-# プレイヤーの手持ちデータとオフハンドのデータを取得
-# メインハンドを優先するためオフハンドから取得する
+# プレイヤーの手持ちデータとオフハンドのデータを取得、メインハンドを優先するためオフハンドから先に取得する
     data modify storage chuz:context ItemID set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".ItemID
     data modify storage chuz:context ItemID set from entity @s SelectedItem.components."minecraft:custom_data".ItemID
 
@@ -33,9 +32,12 @@
 
     # プラットフォーム
         # 保持
-            execute if data storage chuz:context {ItemID:"InstantPlatform"} anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/hold
+            execute if data storage chuz:context {ItemID:"InstantPlatform"} anchored eyes positioned ^ ^ ^5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #useful_tools:can_replace run function useful_tools:items/instant_platform/hold
         # 使用
-            execute if data storage chuz:context {ItemID:"InstantPlatform"} if score @s ChuzTools.Using matches 1.. anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/use
+            execute if data storage chuz:context {ItemID:"InstantPlatform"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/use
+        # ブロックに近い感覚で扱うためのスコアリセット処理
+            execute if data storage chuz:context {ItemID:"InstantPlatform"} run scoreboard players reset @s[scores={ChuzTools.Using=4..}] ChuzTools.Using
+
 
     # フリーズ/アナライズ
         # 保持

@@ -20,7 +20,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "空中にも設置できる足場",
+                  "text": "ブロックに隣接していない場所にも設置できるブロック",
                   "color": "white",
                   "italic": false
                 }
@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "真下を向いて使うと足元に設置される",
+                  "text": "これをオフハンドに持っている場合は、メインハンドのブロックを設置する",
                   "color": "white",
                   "italic": false
                 }
@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "ブロック設置",
+                "text": "空中ブロック設置",
                 "color": "#FF006C",
                 "italic": false
               }
