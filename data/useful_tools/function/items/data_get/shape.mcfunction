@@ -1,9 +1,9 @@
 
 # 色付き
-    particle minecraft:dust{color:[0.0,1.0,0.0],scale:2} ^0 ^0 ^-9 0 0 0 0 1 normal @s
-    particle minecraft:dust{color:[0.0,1.0,0.0],scale:2} ^0 ^0 ^9 0 0 0 0 1 normal @s
-    particle minecraft:dust{color:[0.0,1.0,0.0],scale:2} ^-9 ^0 ^ 0 0 0 0 1 normal @s
-    particle minecraft:dust{color:[0.0,1.0,0.0],scale:2} ^9 ^0 ^ 0 0 0 0 1 normal @s
+    particle minecraft:dust{color:[0.0,1.0,0.0],scale:1} ^0 ^0 ^-9 0 0 0 0 1 normal @s
+    particle minecraft:dust{color:[0.0,1.0,0.0],scale:1} ^0 ^0 ^9 0 0 0 0 1 normal @s
+    particle minecraft:dust{color:[0.0,1.0,0.0],scale:1} ^-9 ^0 ^ 0 0 0 0 1 normal @s
+    particle minecraft:dust{color:[0.0,1.0,0.0],scale:1} ^9 ^0 ^ 0 0 0 0 1 normal @s
 
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAJwAc1ARgOwAsK1AtJQAycCGbTAVlKU2dTnBEDOAlJVI8ATCzr4wAOx4BbBMkBhigAIAjGAIweGLQGck4FAHtCaiEiacCKOE7gYbYAG482IQ64AAeSG5gUBEAvjEEFqRohNaIlASWEObOiJFw2NhoMJY6htwJdlkQOpFolgCiBUUl9QCOhIHYUADKZh7kiABmgSVxALpAA_3
 # 円 1
