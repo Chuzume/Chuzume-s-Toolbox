@@ -1,3 +1,3 @@
 # キーを離すと実行される
-    scoreboard players reset @s C.Box_Using
-    scoreboard players set @s C.Box_UseEnd 0
+    scoreboard players reset @s ChuzTools.Using
+    scoreboard players set @s ChuzTools.UseEnd 0
