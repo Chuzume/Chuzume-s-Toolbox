@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:firework_star",
+          "name": "minecraft:feather",
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -20,7 +20,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "ブロックに隣接していない場所にも設置できるブロック",
+                  "text": "表示位置にガラスを設置する。",
                   "color": "white",
                   "italic": false
                 }
@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "これをオフハンドに持っている場合は、メインハンドのブロックを設置する",
+                  "text": "これをオフハンドに持っている場合は、メインハンドのブロックを設置する。",
                   "color": "white",
                   "italic": false
                 }
