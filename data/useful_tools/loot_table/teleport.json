@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "スニーク中の使用で、壁を通りぬけてテレポートする",
+                  "text": "スニーク中の使用で、前の地形を通り抜けた先の空間に移動する",
                   "color": "white",
                   "italic": false
                 }
