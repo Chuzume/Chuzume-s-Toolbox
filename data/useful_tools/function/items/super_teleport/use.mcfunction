@@ -1,6 +1,6 @@
 
 # ワープ
-    execute unless predicate useful_tools:sneak run function useful_tools:items/super_teleport/warp
+    execute unless predicate useful_tools:sneak run function useful_tools:items/super_teleport/warp_normal/main
     execute if predicate useful_tools:sneak run function useful_tools:items/super_teleport/warp_spec/main
 
 # ワープ結果が届いてなければ失敗として連絡
