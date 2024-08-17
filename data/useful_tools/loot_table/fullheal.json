@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Fullheal / Fullresist",
+                "text": "ヘルス全回復 / 無敵モード",
                 "color": "#FF006C",
                 "italic": false
               }

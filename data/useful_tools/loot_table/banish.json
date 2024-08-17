@@ -63,7 +63,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Banish",
+                "text": "敵性モブ消去",
                 "color": "#FF006C",
                 "italic": false
               }

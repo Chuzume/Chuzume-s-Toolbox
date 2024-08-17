@@ -20,7 +20,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "ゲームモードを切り替える",
+                  "text": "サバイバルとクリエイティブを交互に切り替える",
                   "color": "white",
                   "italic": false
                 }
@@ -44,7 +44,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Switch Gamemode",
+                "text": "ゲームモード切り替え",
                 "color": "#FF006C",
                 "italic": false
               }

@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Freeze / Analyze",
+                "text": "AI停止 / データ取得",
                 "color": "#FF006C",
                 "italic": false
               }

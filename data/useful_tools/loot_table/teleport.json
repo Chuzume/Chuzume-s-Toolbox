@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Teleport",
+                "text": "テレポート",
                 "color": "#FF006C",
                 "italic": false
               }

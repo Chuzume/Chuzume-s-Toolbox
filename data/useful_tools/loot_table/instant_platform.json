@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Instant Platform",
+                "text": "ブロック設置",
                 "color": "#FF006C",
                 "italic": false
               }

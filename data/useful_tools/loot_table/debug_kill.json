@@ -86,7 +86,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Debug Kill",
+                "text": "範囲キル",
                 "color": "#FF006C",
                 "italic": false
               }

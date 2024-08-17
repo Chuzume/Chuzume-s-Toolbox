@@ -55,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "FullEXP / EXPZero",
+                "text": "経験値MAX / 経験値ゼロ",
                 "color": "#FF006C",
                 "italic": false
               }
