@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "これをオフハンドに持っている場合は、メインハンドのブロックを設置する。",
+                  "text": "オフハンドでの使用時はは、代わりにメインハンドのブロックを設置する。",
                   "color": "white",
                   "italic": false
                 }
