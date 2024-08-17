@@ -1,4 +1,6 @@
 
+# 持っている間範囲を示す
+    execute positioned ~ ~0.2 ~ rotated as @n[type=marker,tag=ChuzTools.OriginMarker] run function useful_tools:items/debug_kill/shape
 
 # 対象の頭にパーティクル
     # 通常時
