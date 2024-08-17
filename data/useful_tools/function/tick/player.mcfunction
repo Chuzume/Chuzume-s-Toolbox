@@ -35,7 +35,7 @@
         # 保持
             execute if data storage chuz:context {ItemID:"InstantPlatform"} anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/hold
         # 使用
-            execute if data storage chuz:context {ItemID:"InstantPlatform"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/use
+            execute if data storage chuz:context {ItemID:"InstantPlatform"} if score @s ChuzTools.Using matches 1.. anchored eyes positioned ^ ^ ^ run function useful_tools:items/instant_platform/use
 
     # フリーズ/アナライズ
         # 保持
