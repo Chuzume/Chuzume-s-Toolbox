@@ -51,7 +51,6 @@
         # 以前と近い感覚で扱うためのスコアリセット処理
             execute if data storage chuz:context ItemID{Both:"InstantPlatform"} run scoreboard players reset @s[scores={ChuzTools.Using=4..}] ChuzTools.Using
 
-
     # フリーズ/アナライズ
         # 保持
             execute if data storage chuz:context ItemID{Both:"Freeze"} run function useful_tools:items/data_get/hold
