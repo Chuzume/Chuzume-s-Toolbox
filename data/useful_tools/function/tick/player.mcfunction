@@ -21,7 +21,9 @@
     # フルヒール/インビンシブル
         # 使用
             execute if data storage chuz:context ItemID{Both:"Fullheal"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/health_restore/use
-    
+        # 無敵モード
+            execute if entity @s[tag=ChuzTools.Invinsible] run function useful_tools:items/health_restore/invinsible_mode
+
     # フルEXP/EXPゼロ
         # 使用
             execute if data storage chuz:context ItemID{Both:"FullEXP"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/exp_zero/use
@@ -29,7 +31,7 @@
     # スイッチゲームモード
         # 使用
             execute if data storage chuz:context ItemID{Both:"SwitchGamemode"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/switch_gamemode/use
-
+            
     # テレポート
         # 使用
             execute if data storage chuz:context ItemID{Both:"Teleport"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/super_teleport/use
@@ -61,9 +63,6 @@
 
 # 使用中かどうか
     execute if score @s[scores={ChuzTools.Using=1..}] ChuzTools.UseEnd matches 0 run function useful_tools:release_using
-
-# 無敵モード
-    execute if entity @s[tag=ChuzTools.Invinsible] run function useful_tools:items/health_restore/invinsible_mode
 
 # クリックを離したことの検知に使う
     scoreboard players set @s ChuzTools.UseEnd 0
