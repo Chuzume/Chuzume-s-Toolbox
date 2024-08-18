@@ -28,6 +28,17 @@
               "mode": "append"
             },
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "スニーク中の使用で、暗視エフェクトの切り替え",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantment_glint_override": true,
@@ -44,7 +55,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "ゲームモード切り替え",
+                "text": "ゲームモード切り替え / 暗視切り替え",
                 "color": "#FF006C",
                 "italic": false
               }

@@ -1,13 +1,15 @@
 
-# 演出
-    particle minecraft:crit ~ ~-0.5 ~ 0 0 0 0.5 10
-    playsound minecraft:ui.button.click player @a ~ ~ ~ 1 2
+# 非スニーク
+    # クリエイティブ以外ならクリエイティブに
+        execute if entity @s[gamemode=!creative] unless predicate useful_tools:sneak at @s run function useful_tools:items/switch_gamemode/gamemode_change/creative
+    # クリエイティブかつ、さっき切り替えてないならサバイバルに
+        execute if entity @s[gamemode=creative,tag=!ChuzTools.Toggled] unless predicate useful_tools:sneak at @s run function useful_tools:items/switch_gamemode/gamemode_change/survival
 
-# クリエイティブ以外なら
-    execute if entity @s[gamemode=!creative] at @s run function useful_tools:items/switch_gamemode/creative
-    
+# スニーク
+    # 暗視オン
+        execute if entity @s[nbt=!{active_effects:[{id:"minecraft:night_vision"}]}] if predicate useful_tools:sneak at @s run function useful_tools:items/switch_gamemode/night_vision/on
+    # 暗視オフ
+        execute if entity @s[nbt={active_effects:[{id:"minecraft:night_vision"}]},tag=!ChuzTools.Toggled] if predicate useful_tools:sneak at @s run function useful_tools:items/switch_gamemode/night_vision/off
 
-# クリエイティブで、さっき切り替えてないなら
-    execute if entity @s[gamemode=creative,tag=!ChuzTools.Toggled] at @s run function useful_tools:items/switch_gamemode/survival
-
+# リセット
     tag @s remove ChuzTools.Toggled
