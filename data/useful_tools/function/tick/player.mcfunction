@@ -7,6 +7,12 @@
     data modify storage chuz:context ItemID.Both set from storage chuz:context ItemID.Offhand
     data modify storage chuz:context ItemID.Both set from storage chuz:context ItemID.Mainhand
 
+# 使用中かどうか
+    execute if score @s[scores={ChuzTools.Using=1..}] ChuzTools.UseEnd matches 0 run function useful_tools:release_using
+
+# クリックを離したことの検知に使う
+    scoreboard players set @s ChuzTools.UseEnd 0
+
 # アイテムの処理
     # バニッシュ
         # 使用
@@ -60,12 +66,6 @@
             execute if data storage chuz:context ItemID{Both:"Freeze"} if score @s ChuzTools.Using matches 1 anchored eyes positioned ^ ^ ^ run function useful_tools:items/data_get/use
         # モブをNoAIから復帰させる
             execute unless data storage chuz:context ItemID{Both:"Freeze"} as @e[tag=ChuzTools.NoAINow,distance=..100] run function useful_tools:items/data_get/noai_return
-
-# 使用中かどうか
-    execute if score @s[scores={ChuzTools.Using=1..}] ChuzTools.UseEnd matches 0 run function useful_tools:release_using
-
-# クリックを離したことの検知に使う
-    scoreboard players set @s ChuzTools.UseEnd 0
 
 # ストレージをリセット
     data remove storage chuz:context ItemID
