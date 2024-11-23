@@ -20,7 +20,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "表示位置にガラスを設置する。",
+                  "text": "Place the glass in the position shown",
                   "color": "white",
                   "italic": false
                 }
@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "オフハンドでの使用時はは、代わりにメインハンドのブロックを設置する。",
+                  "text": "When used in the off-hand, it places the block held in the main hand instead.",
                   "color": "white",
                   "italic": false
                 }
@@ -44,18 +44,16 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:max_stack_size": 1,
                 "minecraft:custom_data": {"ItemID":"InstantPlatform"},
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "eat_seconds": 2147483647
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block"
                 }
               }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "空中ブロック設置",
+                "text": "Angel Place",
                 "color": "#FF006C",
                 "italic": false
               }

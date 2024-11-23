@@ -45,11 +45,9 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:max_stack_size": 1,
                 "minecraft:custom_data": {"ItemID":"Banish"},
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "eat_seconds": 2147483647
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block"
                 },
                 "minecraft:unbreakable": {
                   "show_in_tooltip": false
@@ -63,7 +61,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "敵性モブ消去",
+                "text": "Banish Hostiles",
                 "color": "#FF006C",
                 "italic": false
               }

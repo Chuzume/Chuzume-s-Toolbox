@@ -25,7 +25,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "周囲のエンティティを消滅させる",
+                      "text": "Kills all nearby entities except players",
                       "color": "white",
                       "extra": [
                         {
@@ -48,7 +48,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "スニークしながら使うと、一番近いものだけを対象とする",
+                      "text": "If used while sneaking, it only targets the closest entity",
                       "color": "white",
                       "extra": [
                         {
@@ -68,11 +68,9 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:max_stack_size": 1,
                 "minecraft:custom_data": {"ItemID":"DebugKill"},
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "eat_seconds": 2147483647
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block"
                 },
                 "minecraft:unbreakable": {
                   "show_in_tooltip": false
@@ -86,7 +84,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "範囲キル",
+                "text": "Area Kill",
                 "color": "#FF006C",
                 "italic": false
               }
