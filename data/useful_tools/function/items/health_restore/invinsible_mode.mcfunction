@@ -6,5 +6,5 @@
     effect clear @s hunger
 
 # 無敵ですよっていう表示
-    particle minecraft:electric_spark ~ ~0.2 ~ 0.35 0.1 0.35 0.05 1 normal @a
-    particle minecraft:dust{color:[1.0,0.3,0.5],scale:1} ~ ~0.2 ~ 0.3 0.1 0.3 0 1 normal @a
+    particle minecraft:electric_spark ~ ~0.2 ~ 0.35 0.1 0.35 0.05 1 normal @a[distance=0.5..32]
+    particle minecraft:dust{color:[1.0,0.3,0.5],scale:1} ~ ~0.2 ~ 0.3 0.1 0.3 0 1 normal @a[distance=0.5..32]
