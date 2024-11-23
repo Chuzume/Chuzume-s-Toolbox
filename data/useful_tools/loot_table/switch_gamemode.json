@@ -20,7 +20,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "サバイバルとクリエイティブを交互に切り替える",
+                  "text": "Switch between survival and creative",
                   "color": "white",
                   "italic": false
                 }
@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "スニーク中の使用で、暗視エフェクトの切り替え",
+                  "text": "Toggles night vision when used while sneaking",
                   "color": "white",
                   "italic": false
                 }
@@ -53,7 +53,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "ゲームモード切り替え / 暗視切り替え",
+                "text": "Switch Gamemode / Toggle Night Vision",
                 "color": "#FF006C",
                 "italic": false
               }

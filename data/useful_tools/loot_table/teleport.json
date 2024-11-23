@@ -20,7 +20,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "カーソルを合わせた地点にテレポートする",
+                  "text": "Teleport to the block in front of your gaze",
                   "color": "white",
                   "italic": false
                 }
@@ -31,7 +31,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "スニーク中の使用で、前の地形を通り抜けた先の空間に移動する",
+                  "text": "When used while sneaking, it moves you through the previous terrain to the space ahead.",
                   "color": "white",
                   "italic": false
                 }
@@ -53,7 +53,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "テレポート",
+                "text": "Teleport",
                 "color": "#FF006C",
                 "italic": false
               }

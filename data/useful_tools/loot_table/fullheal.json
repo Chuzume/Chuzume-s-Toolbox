@@ -53,7 +53,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Health Restore / Invincible Mode",
+                "text": "Health Restore / Toggle Invincible Mode",
                 "color": "#FF006C",
                 "italic": false
               }
