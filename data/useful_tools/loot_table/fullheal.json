@@ -51,7 +51,7 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:cake"
+                "minecraft:item_model": "minecraft:apple"
               }
             },
             {
