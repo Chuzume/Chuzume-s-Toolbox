@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_sword",
+          "name": "minecraft:diamond_horse_armor",
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -67,19 +67,17 @@
               "components": {
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:max_stack_size": 1,
-                "minecraft:custom_data": {"ItemID":"DebugKill"},
+                "minecraft:custom_data": {
+                  "ItemID": "DebugKill"
+                },
                 "minecraft:consumable": {
                   "consume_seconds": 2147483647,
-                  "animation": "block"
+                  "animation": "none"
                 },
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                }
-              }
+                "!minecraft:equippable": {},
+                "minecraft:item_model": "minecraft:netherite_axe"
+              },
+              "conditions": []
             },
             {
               "function": "minecraft:set_name",
