@@ -6,6 +6,6 @@
     effect give @s minecraft:saturation 1 255 true
 
 # 演出
-    particle minecraft:dust{color:[1.0,0.3,0.5],scale:1} ~ ~-0.5 ~ 0.3 0.5 0.3 0 10 normal @s
-    particle minecraft:entity_effect{color:[1.0,0.3,0.5,1.0]} ~ ~-0.5 ~ 0.3 0.5 0.3 0 10 normal @s
-    playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2
+    particle minecraft:dust{color:[1.0,0.3,0.5],scale:1} ~ ~-0.5 ~ 0.3 0.5 0.3 0 5 normal @s
+    particle minecraft:entity_effect{color:[1.0,0.3,0.5,1.0]} ~ ~-0.5 ~ 0.3 0.5 0.3 0 5 normal @s
+    playsound minecraft:entity.generic.eat player @s ~ ~ ~ 1 1
