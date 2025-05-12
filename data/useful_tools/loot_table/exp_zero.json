@@ -51,7 +51,8 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:experience_bottle"
+                "minecraft:item_model": "minecraft:experience_bottle",
+                "!minecraft:attribute_modifiers": {}
               }
             },
             {

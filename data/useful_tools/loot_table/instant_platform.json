@@ -51,7 +51,8 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:glass"
+                "minecraft:item_model": "minecraft:glass",
+                "!minecraft:attribute_modifiers": {}
               }
             },
             {

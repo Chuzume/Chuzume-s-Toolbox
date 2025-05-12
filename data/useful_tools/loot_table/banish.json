@@ -52,8 +52,10 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:diamond_sword"
+                "minecraft:item_model": "minecraft:diamond_sword",
+                "!minecraft:attribute_modifiers": {}
               },
+
               "conditions": []
             },
             {

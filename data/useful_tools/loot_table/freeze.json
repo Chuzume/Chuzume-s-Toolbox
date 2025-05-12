@@ -51,7 +51,8 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:emerald"
+                "minecraft:item_model": "minecraft:emerald",
+                "!minecraft:attribute_modifiers": {}
               }
             },
             {

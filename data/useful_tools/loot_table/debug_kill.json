@@ -75,7 +75,9 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:netherite_axe"
+                "minecraft:item_model": "minecraft:netherite_axe",
+                "!minecraft:attribute_modifiers": {}
+                
               },
               "conditions": []
             },

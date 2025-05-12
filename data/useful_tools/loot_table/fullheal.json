@@ -51,7 +51,8 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:apple"
+                "minecraft:item_model": "minecraft:apple",
+                "!minecraft:attribute_modifiers": {}
               }
             },
             {

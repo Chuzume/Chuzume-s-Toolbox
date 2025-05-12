@@ -51,7 +51,8 @@
                   "animation": "none"
                 },
                 "!minecraft:equippable": {},
-                "minecraft:item_model": "minecraft:ender_pearl"
+                "minecraft:item_model": "minecraft:ender_pearl",
+                "!minecraft:attribute_modifiers": {}
               }
             },
             {
