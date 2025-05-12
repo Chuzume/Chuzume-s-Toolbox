@@ -9,7 +9,6 @@
 # バニッシュ
     particle minecraft:entity_effect{color:[0.3,0.3,1.0,1.0]} ~ ~ ~ 2 2 2 0 100 normal @s
     particle minecraft:dust{color:[0.3,0.3,1.0],scale:2} ~ ~ ~ 10 10 10 0 200 normal @s
-    playsound minecraft:entity.breeze.idle_air player @s ~ ~ ~ 1 1
-    playsound minecraft:block.end_portal_frame.fill player @s ~ ~ ~ 1 1.5
+    playsound minecraft:entity.breeze.idle_ground player @s ~ ~0.5 ~ 1 2
     difficulty peaceful
     schedule function useful_tools:items/banish/revert_difficulty 2t replace
