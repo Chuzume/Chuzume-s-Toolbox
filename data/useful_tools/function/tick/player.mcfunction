@@ -1,6 +1,6 @@
 
 # プレイヤーの手持ちデータとオフハンドのデータを取得、メインハンドを優先するためオフハンドから先に取得する
-    data modify storage chuz:context ItemID.Offhand set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".ItemID
+    data modify storage chuz:context ItemID.Offhand set from entity @s equipment.offhand.components."minecraft:custom_data".ItemID
     data modify storage chuz:context ItemID.Mainhand set from entity @s SelectedItem.components."minecraft:custom_data".ItemID
 
 # 大体のアイテムはメインハンドとオフハンドで処理が共通なので、データをまとめておく
